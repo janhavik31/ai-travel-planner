@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import {getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDelACF5wgq5pbztAfTm4TJq2qS9LjtHhg",
+  apiKey: import.meta.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "aitrip-7bb16.firebaseapp.com",
   projectId: "aitrip-7bb16",
   storageBucket: "aitrip-7bb16.appspot.com",
